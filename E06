@@ -1,0 +1,19 @@
+programa { 
+funcao inicio() { 
+  
+  cadeia nome 
+  cadeia idade 
+  cadeia altura 
+
+  escreva ("Qual o seu nome? \n") 
+  leia (nome) 
+
+  escreva ("Qual sua idade? \n")
+  leia (idade) 
+
+  escreva ("Qual a sua altura em centimetros? \n") 
+  leia (altura) 
+
+ escreva ("Olá, ", nome, "\nVocê tem ", idade, "anos e ", altura, "cm") 
+  } 
+} 
